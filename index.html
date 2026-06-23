@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio — Creative Single Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <a href="#home" class="nav-logo">Studio</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <p class="hero-label">Design &amp; Development</p>
+        <h1 class="hero-title">
+          We craft <em>digital experiences</em> that feel effortless
+        </h1>
+        <p class="hero-desc">
+          A single-page studio focused on clarity, motion, and thoughtful detail.
+          Everything you need — right here, right now.
+        </p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">View our work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container about-grid">
+        <div class="about-text">
+          <p class="section-label">About</p>
+          <h2>Built for focus.<br>Designed to last.</h2>
+          <p>
+            We believe the best websites say more with less. One page, one story,
+            zero distractions. Every section earns its place.
+          </p>
+          <p>
+            From concept to launch, we partner with brands that value craft over
+            clutter — and experiences that work beautifully on every screen.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">120+</span>
+            <span class="stat-label">Projects shipped</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">8</span>
+            <span class="stat-label">Years of craft</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">100%</span>
+            <span class="stat-label">Client satisfaction</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="work">
+      <div class="container">
+        <p class="section-label">Selected Work</p>
+        <h2 class="work-heading">Recent projects</h2>
+        <div class="work-grid">
+          <article class="work-card">
+            <div class="work-card-visual work-card-visual--1"></div>
+            <div class="work-card-body">
+              <h3>Aurora Finance</h3>
+              <p>Brand identity &amp; web platform for a modern investment firm.</p>
+              <span class="work-tag">Branding</span>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-card-visual work-card-visual--2"></div>
+            <div class="work-card-body">
+              <h3>Field Notes</h3>
+              <p>Editorial e-commerce experience for an outdoor lifestyle brand.</p>
+              <span class="work-tag">E-commerce</span>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-card-visual work-card-visual--3"></div>
+            <div class="work-card-body">
+              <h3>Pulse Health</h3>
+              <p>Patient portal redesign with accessibility at its core.</p>
+              <span class="work-tag">Product</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container contact-inner">
+        <div class="contact-text">
+          <p class="section-label">Contact</p>
+          <h2>Let's build something together</h2>
+          <p>Tell us about your project. We typically respond within one business day.</p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us about your project…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send message</button>
+          <p class="form-success" id="formSuccess" hidden>Thanks! We'll be in touch soon.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-logo">Studio</span>
+      <p>&copy; 2026 Studio. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Twitter</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Dribbble</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
