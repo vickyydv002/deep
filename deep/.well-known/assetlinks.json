@@ -1,0 +1,10 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.urjamitrauserapp",
+      "sha256_cert_fingerprints":
+      ["FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C",
+    "8A:5A:20:89:0D:73:6B:64:20:C5:13:07:0D:64:DD:1E:94:38:B6:9F:58:A2:A3:02:86:28:8C:6D:38:96:62:71"]
+    }
+  }]
