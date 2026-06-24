@@ -413,6 +413,36 @@ body {
   color: var(--text);
 }
 
+/* MyApp page */
+.myapp-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.myapp-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2.5rem;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.myapp-card h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.myapp-card p {
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .nav,
